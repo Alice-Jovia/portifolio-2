@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+/* GLOBAL STYLES STAR */
+:root {
+  --primary-color: #bef264;
+  --secondary-color: #04091b;
+  --primary-font: "Outfit", sans-serif;
+  --secondary-font: "PT Sans", sans-serif;
+  --tertiary-font: "Inter", sans-serif;
+}
+section {
+  padding: 5rem 0;
+  /* padding: 1rem; */
+  min-height: 100vh;
+  border-bottom: 1px solid var(--primary-color);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--primary-font);
+}
+body {
+  padding: 5rem 10rem;
+  /* padding: 1rem; */
+  background-color: var(--secondary-color);
+  color: #f1f5f9;
+  position: relative;
+}
+/* GLOBAL STYLES END */
+header {
+  position: sticky;
+  top: 0;
+  background-color: #04091b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+sub-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h4 {
+  color: #bef264;
+}
+nav {
+  display: flex;
+  /* display: none; */
+  gap: 1rem;
+  margin-right: 1rem;
+}
+nav a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.section-heading {
+  font-size: 3rem;
+  /* font-size: 2rem; */
+  padding: 1rem 0;
+  color: #bef264;
+}
+.section-paragraph {
+  padding: 1rem 0;
+  font-size: 2rem;
+  /* font-size: 1.5rem; */
+}
+.section-experience {
+  padding: 1rem;
+  height: 40vh;
+}
+.intro-text {
+  display: flex;
+  flex-direction: column;
+}
+.desishub {
+  font-size: 1.8rem;
+  /* font-size: 1rem; */
+  margin-left: 30px;
+}
+.developer {
+  font-size: 1.3rem;
+  /* font-size: 1rem; */
+}
+p {
+  font-size: 2.2rem;
+  /* font-size: 2rem; */
+  margin-bottom: 10px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.rate {
+  margin-bottom: 55px;
+  margin-top: 15px;
+}
+.skills {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+h3 {
+  font-size: 1.5rem;
+  /* font-size: 1rem; */
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: 0.2px solid var(--primary-color);
+}
+.portfolio {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+img {
+  width: 300px;
+  /* width: 50%; */
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  transition: all 1s;
+}
+img:hover {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  transform: scale(0.9);
+}
+h1 {
+  /* margin-left: 100px; */
+  padding: 10px 10rem;
+  font-size: 3rem;
+  /* font-size: 2rem; */
+}
+h4 {
+  padding: 10px 2rem;
+  font-size: 1.3rem;
+  /* font-size: 1rem; */
+  font-weight: 300;
+}
+span {
+  margin-left: 300px;
+  /* margin-left: 0px; */
+}
+button {
+  color: white;
+  background-color: var(--primary-color);
+  padding: 5px 20px;
+  border-radius: 15px;
+  margin-top: 35px;
+  margin-left: 380px;
+  font-size: 30px;
+  /* font-size: 20px; */
+  cursor: pointer;
+}
+.text-2 {
+  display: flex;
+  gap: 0px;
+  flex-direction: column;
+}
+.two {
+  font-size: 20px;
+  color: white;
+}
+.text-3 {
+  display: flex;
+  gap: 5px;
+}
+.main-text {
+  display: flex;
+}
+.text-icon {
+  display: flex;
+  align-items: center;
+}
+.bxl-github {
+  font-size: 25px;
+  transition: all 1s;
+}
+.bxl-github:hover {
+  font-size: 28px;
+  transform: scale(1.3);
+}
+@media (max-width: 768px) {
+  section {
+    padding: 1rem;
+  }
+  body {
+    padding: 1rem;
+  }
+  nav {
+    display: none;
+  }
+  .section-heading {
+    font-size: 2rem;
+  }
+  .section-paragraph {
+    font-size: 1.5rem;
+  }
+  .section-experience {
+    min-height: 100vh;
+  }
+  .desishub {
+    font-size: 1rem;
+  }
+  .developer {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1.8rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  img {
+    width: 100%;
+  }
+  h1 {
+    font-size: 1.6rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  span {
+    margin-left: 0px;
+  }
+  button {
+    margin-left: 200px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 360px) {
+  body {
+    padding: 0.5rem;
+  }
+  section {
+    padding: 0.5rem;
+  }
+  p {
+    font-size: 1.3rem;
+  }
+  h1 {
+    font-size: 1rem;
+    width: 100%;
+  }
+  .section-contact {
+    padding: 0.5rem;
+  }
+  button {
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .section-paragraph {
+    font-size: 1.3rem;
+  }
+}
