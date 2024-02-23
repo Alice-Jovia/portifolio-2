@@ -10,7 +10,7 @@
 section {
   padding: 5rem 0;
   /* padding: 1rem; */
-  min-height: 100vh;
+  min-height: 80vh;
   border-bottom: 1px solid var(--primary-color);
 }
 * {
@@ -34,6 +34,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 300;
 }
 sub-nav {
   display: flex;
@@ -54,19 +55,18 @@ nav a {
   text-decoration: none;
 }
 .section-heading {
-  font-size: 3rem;
+  font-size: 2.8rem;
   /* font-size: 2rem; */
   padding: 1rem 0;
   color: #bef264;
 }
 .section-paragraph {
   padding: 1rem 0;
-  font-size: 2rem;
+  font-size: 1.8rem;
   /* font-size: 1.5rem; */
 }
 .section-experience {
   padding: 1rem;
-  height: 40vh;
 }
 .intro-text {
   display: flex;
@@ -78,13 +78,13 @@ nav a {
   margin-left: 30px;
 }
 .developer {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   /* font-size: 1rem; */
 }
 p {
-  font-size: 2.2rem;
+  font-size: 2rem;
   /* font-size: 2rem; */
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 html {
   scroll-behavior: smooth;
@@ -136,10 +136,6 @@ h4 {
   font-size: 1.3rem;
   /* font-size: 1rem; */
   font-weight: 300;
-}
-span {
-  margin-left: 300px;
-  /* margin-left: 0px; */
 }
 button {
   color: white;
@@ -204,6 +200,7 @@ button {
   }
   .developer {
     font-size: 1rem;
+    margin-right: 100px;
   }
   p {
     font-size: 1.8rem;
@@ -215,13 +212,13 @@ button {
     width: 100%;
   }
   h1 {
-    font-size: 1.6rem;
+    font-size: 2rem;
+    text-align: center;
+    padding: 0px;
+    margin-top: 10px;
   }
   h4 {
     font-size: 1rem;
-  }
-  span {
-    margin-left: 0px;
   }
   button {
     margin-left: 200px;
@@ -238,12 +235,19 @@ button {
   p {
     font-size: 1.3rem;
   }
+  h4 {
+    text-align: center;
+    font-size: 1.2rem;
+  }
   h1 {
-    font-size: 1rem;
+    font-size: 2rem;
     width: 100%;
+    padding: 0px;
+    margin-top: 20px;
+    text-align: center;
   }
   .section-contact {
-    padding: 0.5rem;
+    padding: 0rem;
   }
   button {
     margin-left: 100px;
