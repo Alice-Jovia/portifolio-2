@@ -139,7 +139,8 @@ h4 {
 }
 button {
   color: white;
-  background-color: var(--primary-color);
+  background: linear-gradient(to right, green, yellowgreen);
+  border: none;
   padding: 5px 20px;
   border-radius: 15px;
   margin-top: 35px;
@@ -175,6 +176,52 @@ button {
 .bxl-github:hover {
   font-size: 28px;
   transform: scale(1.3);
+}
+.form {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.send-message {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #04091b;
+}
+.label {
+  color: #04091b;
+}
+.form-layout {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: white;
+}
+.form-inputs {
+  background-color: white;
+  border: 1px solid gray;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+.text-input {
+  width: 100%;
+  outline: none;
+  border: none;
+}
+.submit-button {
+  padding: 10px 35px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(to right, green, yellowgreen);
+  font-size: 1rem;
+  margin: 0 auto;
 }
 @media (max-width: 768px) {
   section {
