@@ -224,6 +224,10 @@ button {
   font-size: 1rem;
   margin: 0 auto;
 }
+.thanks {
+  background: linear-gradient(to right, green, yellowgreen)
+    url(/images/pngwing.com__4_-removebg-preview.png);
+}
 @media (max-width: 768px) {
   section {
     padding: 1rem;
