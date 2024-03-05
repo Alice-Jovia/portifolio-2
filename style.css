@@ -225,8 +225,18 @@ button {
   margin: 0 auto;
 }
 .thanks {
-  background: linear-gradient(to right, green, yellowgreen)
-    url(/images/pngwing.com__4_-removebg-preview.png);
+  background: linear-gradient(
+      to right,
+      rgba(153, 205, 50, 0.63),
+      rgba(153, 205, 50, 0.596)
+    ),
+    url("/images/pngwing.com__4_-removebg-preview.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 @media (max-width: 768px) {
   section {
